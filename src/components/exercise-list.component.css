@@ -1,0 +1,38 @@
+/* Table Styling */
+.exercise-table {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .exercise-table th, .exercise-table td {
+    text-align: center;
+  }
+  
+  /* Styling for the Links (Edit and Delete buttons) */
+  .exercise-table a {
+    cursor: pointer;
+    color: #333;  /* Initially, dark text color */
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 25px;  /* Slightly round border */
+    border: 2px solid #333;  /* Border color initially */
+    transition: all 0.3s ease;  /* Smooth transition for hover */
+    font-weight: 600;
+    margin: 5px;
+    display: inline-block;
+  }
+  
+  /* Hover effect for Edit button (changed to green) */
+  .exercise-table .edit-btn:hover {
+    color: white;  /* White text color on hover */
+    background-color: #2ecc71;  /* Green background on hover */
+    border-color: #2ecc71;  /* Border color on hover */
+  }
+  
+  /* Hover effect for Delete button */
+  .exercise-table .delete-btn:hover {
+    color: white;  /* White text color on hover */
+    background-color: #e74c3c;  /* Red background on hover */
+    border-color: #e74c3c;  /* Border color on hover */
+  }
+  

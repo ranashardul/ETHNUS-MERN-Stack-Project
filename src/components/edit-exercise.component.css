@@ -1,0 +1,12 @@
+.edit-exercise-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.edit-exercise-form .form-group {
+  margin-bottom: 15px;
+}
+
+.edit-exercise-form input[type="submit"] {
+  width: 100%;
+}
